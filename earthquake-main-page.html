@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <title>EARTHQUAKE</title>
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="eq.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+            <script>
+                    $(document).ready(function(){
+                    
+                        $("#f-iframe").click(function(){
+                            $(".alert-oly,.alert-iframe,.alert-iframe iframe").css('visibility',"visible");
+                        });
+                        $(".alert-oly").click(function(){
+                            $(".alert-oly,.alert-iframe,.alert-iframe iframe").css('visibility',"hidden");
+                        });
+                        $("#eq-ch").click(function(){
+                            $(".live-eq-oly,.live-eq-iframe,.live-eq-iframe iframe").css('visibility',"visible");
+                        });
+                        $(".live-eq-oly").click(function(){
+                            $(".live-eq-oly,.live-eq-iframe,.live-eq-iframe iframe").css('visibility',"hidden");
+                        });
+                        $("#cl-info").click(function(){
+                            $(".cl-div,.cl-iframe,.cl-iframe iframe").css('visibility',"visible");
+                        });
+                        $(".cl-div").click(function(){
+                            $(".cl-div,.cl-iframe,.cl-iframe iframe").css('visibility',"hidden");
+                        });
+                        
+                    });
+                    </script>
+        <div class="e-head"><h1>DISASTER RECOVERY METHODS FOR AN EARTHQUAKE</h1></div>
+        <div class="first-div">
+            <div class="fd-1">
+                <p>General overview of how an earthquake happens</p>
+                <p>An earthquake is a sudden and rapid shaking of the ground caused by the shifting of rocks deep 
+                    underneath the earth’s surface. Earthquakes can happen without 
+                    warning and result in injuries and damage to property and roads. </p>
+                <h3><u>Earthquakes can:</u></h3>
+                <p>Happens in only particular places</p>            
+                <p>Due to movement of techtonic plates</p>                
+                <p>Causes cracks in earth thus destroying buildings</p>
+                <button id="eq-ch">LIVE EARTHQUAKE CHASER</button>
+            </div>
+            <div class="fd-2">
+                <h2>WHAT SHOULD YOU DO DURING AN EARTHQUAKE?</h2>
+                <p>THE THREE BASIC PRINCIPLES TO BE FOLLOWED DURING AN EARTQUAKE</p>
+                <p>1.YOU SHOLUD PROTECT YOUR SELF FROM DROPPING MATERIALS</p>
+                <p>2.FIND A COVER TO PROTCET YOUR SELF</p>
+                <p>3.HOLD ON TO SOME STEADY STUFF</p>
+                <p>**The most important thing to remember is <span id="dp">DON'T PANIC</span>!!!</p>
+            </div>
+        </div>
+        <div class="s-div">
+            <div class="sd-1">
+                <img src="cover.png">
+                <p>COVER your head and neck with one arm and hand</p>
+                   <p>&#9632 If a sturdy table or desk is nearby, crawl underneath it for shelter</p>
+                   <p>&#9632 If no shelter is nearby, crawl next to an interior wall </p>
+                    <p>&#9632 Stay on your knees; bend over to protect vital organs</p></p>
+            </div>
+            <div class="sd-2">
+                <img src="hold.png">
+                <p>HOLD ON until shaking stops</p>
+                <p>&#9632 Under shelter hold on to it with one hand; </p>
+               <p> &#9632 Be ready to move with your shelter if it shifts</p>
+                <p>&#9632 If there is no shelter hold on to your head and neck with both arms and hands.</p></p>
+            </div>
+            <div class="sd-3">
+                    <img src="drop.png">
+                    <p>DROP where you are, onto your hands and knees.</p>
+                    <p>&#9632 This position protects you from being knocked down </p> 
+                    <p>&#9632 It also allows you to stay low and crawl to shelter if nearby</p></p>
+            </div>
+        </div>
+        <div class="safety-gif">
+            <div class="sg-intro"><h2>SOME GIFS TO SHOW THE DEMONSTRATION</h2></div>
+            <div class="sg-1"><img src="sg-1.gif"></div>
+            <div class="sg-2"><img src="sg-2.gif"></div>
+            <div class="sg-3"><img src="sg-3.gif"></div>
+            <div class="sg-4"><img src="sg-4.gif"></div>
+        </div>
+        <div class="eq-b">
+                <div class="eq-b1">
+                    <h1>Prepare before an Earthquake</h1>
+                    <p>&#9632 Practice Drop, Cover, and Hold On with family and coworkers.</p>
+                    <p>&#9632 Secure heavy items in your home like bookcases, refrigerators, televisions, and objects that hang on walls.
+                     Store heavy and breakable objects on low shelves.</p>
+                    <p>&#9632 Create a family emergency communications plan that has an out-of-state contact.
+                         Plan where to meet if you get separated.</p>
+                    <p>&#9632 Consider obtaining an earthquake insurance policy. A standard homeowner’s
+                         insurance policy does not cover earthquake damage.</p>
+                    <p>&#9632 Consider making improvements to your building to fix structural issues that
+                         could cause your building to collapse during an earthquake.</p>
+                </div>
+                <div class="eq-b2">
+                    <h2>QUICK TIP</h2>
+                    <p>Inform about these plans and 
+                        safety procedures to all your neighbours.</p>
+                </div>
+            </div>
+            <div class="th-div">
+                    <iframe src="https://www.youtube.com/embed/osBrsz1GLJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="ft-div">
+                <div clas="ft-intro"></div>
+                <div class="ft-1"></div>
+                <div class="ft-1"></div>
+            </div>
+            <div class="f-div">
+              <button id="f-iframe">EARTHQUAKES 101</button>  
+            </div>
+            <div class="alert-oly">
+                    <!-- <div class="alert-iframe"><iframe src="https://www.nationalgeographic.com/environment/natural-disasters/earthquakes/"></iframe></div> -->
+                    <div class="alert-iframe"><iframe src="https://www.volcanodiscovery.com/earthquakes/india.html"></iframe></div>
+                </div>
+                <div class="live-eq-oly">
+                    <!-- <div class="alert-iframe"><iframe src="https://www.nationalgeographic.com/environment/natural-disasters/earthquakes/"></iframe></div> -->
+                    <div class="live-eq-iframe"><iframe src="https://www.emsc-csem.org/#2"></iframe></div>
+                </div>
+                <div class="sx-div">
+                    <div class="sx-1">
+                        <h2>DEMONSTRATION ON BUILDING EARTHQUAKE RESISTANT BUILDINGS</h2>
+                        <p>FOLLOW THESE STEPS TO BUILD YOUR EARTHQUAKE RESISTANT BULDING</p>
+                        <p>Step 1:<br>
+                            Design ground beams for earthquake-resistant housing.
+                             Join steel beams together by the feet and allow them to go
+                              outside the line of the building to decrease the chance of 
+                              the structure overturning.</p>
+                        <p>Step 2:<br>
+                            Build floors with a light material similar to the roof. Use plywood,
+                             chipboard or plain timber with joists bolted
+                              firmly to the floor for earthquake-resistant housing.</p>
+                        <p>Step 3:<br>
+                            Ensure that buildings resist sideways pressure. Build the roof with a
+                             lightweight material. Brace the building 
+                             diagonally to resist sideways loads of debris.</p>
+                        <p>Step 4:<br>
+                            Construct wood-frame housing. Although it's lightweight, wood provides
+                             a strong resistance to earthquakes. Tie wall wells to the house foundation 
+                             when building and nail wood firmly to studs to increase the earthquake resistance 
+                             of the structure. Use a shear wall construction with studs forming 
+                            the wall's shell and horizontal joists making up the
+                             floors and rafters supporting the roof.</p>
+                        <p>Step 5:<br>
+                            Establish a large panel system for residences. Set up concrete panels vertically 
+                            and horizontally to surround the rooms in a apartment building.
+                             These panels uphold the building's structural integrity along 
+                             with vertical and horizontal floor panels.</p>
+                             <p>Step 6:<br>
+                                Use a modular building system. Stack ready-made boxes and connect them together. 
+                                The walls that form resist shaking caused by earthquakes from
+                                 both directions. Pipes as well as wall and floor 
+                                 finishes fit in an earthquake-resistant concrete box.</p>
+                    </div>
+                    <div class="sx-2">
+                        <div class="sx-2-1">
+                            <h3>TUTORIAL ON BUILDING EARTHQUAKE PROOF HOUSES</h3><iframe src="https://www.youtube.com/embed/RCdfMECs7bo" frameborder="0" allow="accelerometer; 
+                            autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="sx-2-2"><iframe  src="https://www.youtube.com/embed/3DuGhgIl22s" frameborder="0" allow="accelerometer; autoplay; 
+                            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div class="sx-2-3">FEEL FREE TO INFORM MORE ABOUT THESE DISASTERS<button id="cl-info">CLICK ME TO SHARE PROVDIE US 
+                                   WITH YOUR VALUABLE INFORMATION</button></div>
+                        </div>
+                
+                </div>
+                <div class="cl-div"><div class="cl-iframe"><iframe src="inform-us.html"></iframe></div></div>
+    </body>
+</html> 

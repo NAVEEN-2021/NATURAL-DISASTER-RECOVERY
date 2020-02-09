@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <title>NATURAL DISASTER'S BROADCAST AND RECOVERY PLAN</title>
+   <head><!-- <h1>DISASTER RECOVERY PLANS </h1> -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="dis.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script>
+        $(document).ready(function(){
+            $("#op-1").click(function(){
+                $("#nd-src").attr('src',"earthquake.html");
+            });
+            $("#op-2").click(function(){
+                $("#nd-src").attr('src',"tornado.html");
+            });
+            $("#op-3").click(function(){
+                $("#nd-src").attr('src',"floods.html");
+            });
+            $("#op-4").click(function(){
+                $("#nd-src").attr('src',"hurricane.html");
+            });
+            $("#op-5").click(function(){
+                $("#nd-src").attr('src',"lightning.html");
+            });
+            $("#op-6").click(function(){
+                $("#nd-src").attr('src',"heatwave.html");
+            });
+            $("#op-7").click(function(){
+                $("#nd-src").attr('src',"landslide.html");
+            });
+            $("#op-8").click(function(){
+                $("#nd-src").attr('src',"wildfire.html");
+            });
+            $("#live").click(function(){
+                $(".alert-oly,.alert-iframe,.alert-iframe iframe").css('visibility',"visible");
+            });
+            $("#live-dis").click(function(){
+                $(".alert-oly,.alert-iframe,.alert-iframe iframe").css('visibility',"visible");
+            });
+            $(".alert-oly").click(function(){
+                $(".alert-oly,.alert-iframe,.alert-iframe iframe").css('visibility',"hidden");
+            });
+            
+        });
+        </script>
+        <div class="intro">
+            <div class="intro-data">NATURAL DISASTER RECOVERY PLAN</div>
+            <div class="intro-cap">WE HELP YOU IN REBUILDING YOUR HOMES AND 
+                MAKE THEM STRONG TO WITHSTAND NEXT NATURAL DISASTER</div>
+            <div class="intro-somedata"><button id="live"> WEATHER UPDATE</button></div>
+        </div>
+        <div class="s-dis">
+            <div class="s-intro"><h2>IN WHICH DISASTER PRONE AREA DO YOU LIVE?</h2></div>
+            <div class="s-options">
+                <div id="op1"><a id="op-1" href="#">EARTH QUAKE</a></div>
+                <div id="op2"><a id="op-2" href="#">TORNADO</a></div>
+                <div id="op3"><a id="op-3" href="#">FLOODS</a></div>
+                <div id="op4"><a id="op-4" href="#">HURRICANES</a></div>
+                <div id="op5"><a id="op-5" href="#">LIGHTNING</a></div>
+                <div id="op6"><a id="op-6" href="#">HEAT WAVE</a></div>
+                <div id="op7"><a id="op-7" href="#">LAND SLIDE</a></div>
+                <div id="op8"><a id="op-8" href="#">WILD FIRE</a></div>
+            </div>
+            <div class="s-foot"><button id="live-dis">CLICK HERE</button>IF YOU WANT TO KNOW WHICH DISASTER PRONE AREA YOU LIVE IN.</div>
+        </div>
+        
+        <!-- <div class="s-dis-info">
+            <div class="s-dis-tornado">
+            <p>Tornadoes can destroy buildings, flip cars, and create deadly
+                 flying debris. Tornadoes are violently rotating 
+                 columns of air that extend from a thunderstorm to the ground. </p>
+                 <h3><u>Tornadoes can:</u></h3>
+                    <p>Happen anytime and anywhere;</p>            
+                    <p>Bring intense winds, over 200 MPH</p>                
+                    <p>Look like funnels.</p>
+                    <p>COMPLETE RECOVERY PLAN FOR <button>TORNADO</button></p>
+        </div>
+        <div class="s-dis-earthquake">
+                <p>Tornadoes can destroy buildings, flip cars, and create deadly
+                     flying debris. Tornadoes are violently rotating 
+                     columns of air that extend from a thunderstorm to the ground. </p>
+                     <h3><u>Tornadoes can:</u></h3>
+                        <p>Happen anytime and anywhere;</p>            
+                        <p>Bring intense winds, over 200 MPH</p>                
+                        <p>Look like funnels.</p>
+                        <p>COMPLETE RECOVERY PLAN FOR <button>TORNADO</button></p>
+            </div>
+        </div> -->
+        <div class="nd-iframe"><iframe id="nd-src" src="tornado.html"></iframe></div>
+        <div class="dis-if">
+            <iframe src="https://nidm.gov.in/safety_earthquake.asp"></iframe>
+        </div>
+        <div class="alert-oly">
+            <div class="alert-iframe"><iframe src="https://www.gdacs.org"></iframe></div>
+        </div>
+    </body>
+</html>
